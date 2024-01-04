@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #262626;
+    background-color: #333333;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -37,28 +37,49 @@ main {
     margin-top: 10px ;
     width: 80vw;
     min-width: 560px;
+   }
+.searchBar{
+    width: 50vw;
+    height:50px;
+    border:none;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 120px;
 }
+.optionChoose{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 
+}
 
 #task-form {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
     flex-wrap: wrap;
 }
 
 #task-input {
     padding: 15px;
-    color: white;
-    background-color: #0D0D0D;
+    color: #808080;
+    background-color: #262626;
     border: none;
     border-radius: 8px;
     flex-grow: 1;
 }
 
 #due-date-input,#search-input {
-    padding: 15px;
+   padding: 0px 10px;
+    height: 50px;
     color: #808080;
-    background-color: #0D0D0D;
+    background-color: #262626;
     border: none;
     border-radius: 8px;
 }
@@ -72,20 +93,26 @@ main {
 }
 
 #priority-container {
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 10px;
     color: #808080;
-    background-color: #0D0D0D;
+    background-color: #262626;
     border: none;
     border-radius: 8px;
 }
 
 #task-form select {
     color: #b1afaf;
-    background-color: #0D0D0D;
+    background-color: #262626;
+
     border: none;
     outline: none;
 }
 #filter{
+    height: 50px;
+    padding: 0px 5px;
     font-size: 1.2rem;
     border-radius: 8px;
 }
