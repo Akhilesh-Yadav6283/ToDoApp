@@ -140,6 +140,19 @@ main {
     padding: 20px 0px 20px 0px;
     color: #4EA8DE;
 }
+.to-do-head> h3> #todo-count,.started-head>h3>#started-count, .completed-head>h3>#completed-count{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.to-do-head> h3> #todo-high{
+    width: 35px;
+    height: 20px;
+    border-radius:20px;
+}
+#highPrio{
+    color:#8284FA;
+} 
 
 #task-container span {
     background-color: rgba(128, 128, 128, 0.512);
